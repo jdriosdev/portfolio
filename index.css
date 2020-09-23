@@ -7,6 +7,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+a{
+  text-decoration: none;
+}
+
 .fake-body {
   background-image: radial-gradient(#263230, #0A0C0B);
   height: 100vh;
@@ -281,3 +285,72 @@
   height: 30px;
 }
 
+/* PERSONAL INFO */
+
+.personal__info {
+  z-index: 20;
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  top: 100px;
+  margin: 0px auto;
+}
+
+.personal__info h1 {
+  color: #0EEEC6;
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-shadow: 0px 3px 5px #0eeec557;
+  width: 100%;
+  max-width: 700px;
+  margin: 0px auto 80px;
+  padding-top: 100px;
+  text-align: center;
+} 
+
+.personal__info .personal__info--resumen {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.personal__info .personal__info--resumen {
+  margin-bottom: 25px;
+  color: #92ccc1;
+  font-size: 1.5rem;
+}
+
+.card__email--container {
+  background-image: linear-gradient(160deg,#1E1F1F, #0EEEC6);
+  border-radius: 30px;
+  box-shadow:inset -2px -2px 4px 0px #0c3a32, inset  -1px -1px 5px 1px #0d1d19d5;
+  width: 350px;
+  height: 70px;
+  margin: 40px auto;
+  padding: 9px;
+}
+
+.card__email--inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  box-shadow: -2px -2px 4px 0px #0EEEC6;
+  background-image: linear-gradient(160deg,#141817, #48635c);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0EEEC6;
+  font-size: 1.2rem;
+  display: flex;
+  transition: .5s;
+}
+
+.card__email--inner  p {
+  text-align: center;
+  margin: 0;
+}
+
+.personal__info--resumen p {
+  margin-bottom: 25px;
+}
