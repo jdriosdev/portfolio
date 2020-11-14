@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 
 Here you could be able to see my portfolio and know some things about me
 
